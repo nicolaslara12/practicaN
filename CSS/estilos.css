@@ -1,0 +1,49 @@
+
+
+nav{
+    background:rgba(13, 14, 13, 0.911);
+    padding: 10px;
+    border-radius: 20px;   
+}
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    
+    } 
+    nav li{
+        display:inline-block;
+        width:15%;
+        padding:15px 10px;
+        background-color:rgba(199, 166, 19, 0.938);
+        border:1px solid rgb(224, 225, 233);
+        text-align:center;
+        color:rgb(8, 8, 8);
+        border-radius: 20px;
+        font-family: cursive;
+        font-weight:lighter;
+        
+        }
+        nav li:hover{
+        background-color:rgba(106, 107, 106, 0.699);
+        color:rgb(255, 248, 248);
+        }
+        .ul{
+            text-align: right;
+        }
+
+    h1{
+        text-align: center;
+        color: rgb(236, 217, 46);
+        
+    }
+
+body {
+    height: 800px;
+    background-image: url("/practicaN/imagenes/196879006_870689303516492_1798633891979377777_n.jpg");
+    background-size: cover;
+    background-size: 42rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
