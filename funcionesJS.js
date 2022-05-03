@@ -6,13 +6,15 @@ function calcularNotas(){
      const nota3 = parseInt(document.getElementById("Nota3").value);
    const media = (nota1 + nota2 + nota3 )/3; 
 
-   if ( media => 5 )
+   if ( media >= 5)
    {
-    alert ('Aprobado :  '  + media);
+    //alert ('Aprobado :  '  + media);
+   document.getElementById('resultado').innerHTML = media + "   /  " + "Aprobado";
    }
    else
    {
-    alert ('Suspendido :  '  + media);
+    //alert ('Suspendido :  '  + media);
+    document.getElementById('resultado').innerHTML = media + "   /  " + "Suspendido";
    }
  
 

@@ -115,9 +115,17 @@ h1{
 button{
     margin-left: 70px;
     margin-top: 50px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    border-radius: 2em;
-    background-color: blueviolet;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0.5em;
+    background-color: rgb(130, 133, 132);
     font-size: 2em;
     padding: 5px;
+}
+
+.divResulatdo{
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.747);
+
 }
