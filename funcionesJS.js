@@ -1,29 +1,21 @@
-
         
-let nota1, nota2, nota3;
-let dato1, dato2, dato3;
+function calcularNotas(){
+    
+     const nota1 = parseInt(document.getElementById("Nota1").value);
+     const nota2 = parseInt(document.getElementById("Nota2").value);
+     const nota3 = parseInt(document.getElementById("Nota3").value);
+   const media = (nota1 + nota2 + nota3 )/3; 
 
-dato1 = window.prompt("primer numero" ,"0");
-nota1 = parseInt(dato1);
+   if ( media => 5 )
+   {
+    alert ('Aprobado :  '  + media);
+   }
+   else
+   {
+    alert ('Suspendido :  '  + media);
+   }
+ 
 
-dato2 = window.prompt("segundo numero" , "0");
-nota2 = parseInt(dato2);
-
-dato3 = window.prompt("primer numero" , "0");
-nota3 = parseInt(dato1);
-
-media = (nota1 + nota2 + nota3)/3;
-
-if (media >5 )
-
-{
-resultado = "suspendido";
-
+    
 }
-else
-{
- resultado = "aprobado";
-}
-
-document.write(`<h3>la noata final es ${resultado}</h3`);
-   
+    

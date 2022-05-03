@@ -6,24 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/practicaN/CSS/estilos.css">
     <title>Document</title>
-</head>
+    <script src="/practicaN/funcionesJS.js"></script>
 <body>
-    <header>
-       <nav>
-        <h1>Ejercicio funciones JS</h1>
-    
-            <ul class="ul">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-            
-      
-       </nav> 
-    </header> 
-<section class="section1">
-    <h2>Notas </h2>
-    <label for="Nota1">ingresar nota </label>
-</section>
 
+    <header>
+        <h1>Ejercicio JS</h1>
+        <figure ><img  class="imglogo" src="/practicaN/imagenes/196879006_870689303516492_1798633891979377777_n.jpg " alt=""></figure>
+     
+       
+    </header>
+    
+    <main>
+        <aside>
+            <div>
+                <label class="labelNota" for="">Ingresar nota 1 :</label>
+                <input id="Nota1" type="number" name="Nota1"> 
+            </div>
+            <div>
+                <label class="labelNota" for="">Ingresar nota 2 :</label>
+                    <input id="Nota2" type="number" name="Nota2">
+            </div>
+            <div>
+                <label class="labelNota" for="">Ingresar nota 3:</label>
+                <input id="Nota3" name="Nota3" type="number">
+            </div>
+         
+              <button  type="button" value="media" onclick="calcularNotas()">Calcular </button>
+         
+        </aside>
+        
+        <section>
+            <div>
+      <p> Leer tres notas de un alumno y calcular la media e indicar si esta suspendido o aprobado nota mayor o igual a 5</p>
+            </div><br>
+            <div>
+             <label for="">Resultado :</label>
+           <label for="resultado" id="resultado"></label>
+            </div>
+            </section>
+    </main>
+    <footer>
+        <div class="footer-social">
+  
+        </div>
+        <div class="footer-info">
+    
+        </div>
+
+    </footer>
 </body>
 </html>
